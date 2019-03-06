@@ -31,7 +31,7 @@ export class UserAuthService {
  this.snackBar.open(`You've Signed Out`, 'OK', {
  duration: 5000
  });
- this.router.navigate(['/home']);
+ this.router.navigate(['/user/login']);
  })
  }
  private handleError(res: HttpErrorResponse) {
